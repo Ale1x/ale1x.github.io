@@ -5,19 +5,19 @@ import { Content, Footer } from './components/'
 
 test('renders name: Adam Alston', () => {
     const { getByText } = render(<Content />);
-    const linkElement = getByText('Adam Alston');
+    const linkElement = getByText('Alessandro Passarelli');
     expect(linkElement).toBeInTheDocument();
 });
 
 test('renders title: Software Engineer', () => {
     const { getByText } = render(<Content />);
-    const linkElement = getByText('Software Engineer');
+    const linkElement = getByText('C / Java Developer');
     expect(linkElement).toBeInTheDocument();
 });
 
 test('renders creator: Adam Alston', () => {
     const { getByText } = render(<Footer />);
-    const linkElement = getByText(/Adam Alston/i);
+    const linkElement = getByText(/Alessandro Passarelli/i);
     expect(linkElement).toBeInTheDocument();
 });
 
