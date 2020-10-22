@@ -3,7 +3,7 @@ import { GitHub, LinkedIn, Resume, Email } from './../assets/icons'
 
 const DATA = [
     {
-        href: "https://github.com/alee1x",
+        href: "https://github.com/ale1x",
         aria: "Visita il mio profilo GitHub per avere più informazioni su di me",
         icon: <GitHub />,
         label: "Github",
@@ -15,10 +15,10 @@ const DATA = [
         label: "LinkedIn",
     },
     {
-        href: "#",
+        href: "https://covid.alessandropassarelli.it/",
         aria: "",
         icon: <Resume />,
-        label: "Resume",
+        label: "Covid19 - Website",
     },
     {
         href: "mailto:passarelli598@gmail.com",
